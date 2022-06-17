@@ -3,7 +3,7 @@ pragma solidity ^0.8.4;
 
 import "./ERC4973.sol";
 
-abstract contract SBT is ERC4973{
+ contract SBT is ERC4973{
 
 address public owner;
 uint public tokenId=0;
